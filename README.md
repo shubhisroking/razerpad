@@ -13,7 +13,7 @@ Schematics
 
 PCB
 
-![image](https://github.com/user-attachments/assets/95c11280-e5d9-493f-a22d-52a790e8877f)
+![image](https://github.com/user-attachments/assets/2facc38d-ea8c-403c-b2fd-0ee026aa2d8c)
 
 
 Top case
