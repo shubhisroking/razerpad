@@ -19,7 +19,7 @@ PCB
 Top case
 
 
-![image](https://github.com/user-attachments/assets/603098b0-e6a9-48e5-bc64-b9fffff1130d)
+![image](https://github.com/user-attachments/assets/69abb817-00c0-4f62-9508-798e199b28b3)
 
 
 Bottom Case
