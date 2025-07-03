@@ -3084,8 +3084,8 @@
 		(layer "Edge.Cuts")
 		(uuid "774358f4-b32f-4c7a-9529-b23e5fd2d76b")
 	)
-	(gr_text "XIAO HERE!\n"
-		(at 153.7464 79.9484 0)
+	(gr_text "XIAO HERE"
+		(at 154.32 75.9 0)
 		(layer "F.SilkS")
 		(uuid "43159381-ee78-46cf-9852-85ebb3ca4401")
 		(effects
