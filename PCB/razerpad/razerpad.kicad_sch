@@ -5,395 +5,7 @@
 	(uuid "7d66b08b-ba51-4912-98d0-7440f66d0fea")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:RotaryEncoder_Switch"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RotaryEncoder_Switch"
-				(at 0 -6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -3.81 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "rotary switch encoder switch push button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RotaryEncoder*Switch*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RotaryEncoder_Switch_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.81 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.778) (xy -0.635 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.381 0)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 -1.778) (xy -0.381 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.381 -2.794)
-					(mid -3.0988 -0.0635)
-					(end -0.381 2.667)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 1.778) (xy -0.127 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.016) (xy 3.81 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.429 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 1.016)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 -1.016)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RotaryEncoder_Switch_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LED:SK6812"
+		(symbol "LED:SK6812MINI"
 			(pin_names
 				(offset 0.254)
 			)
@@ -409,7 +21,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "SK6812"
+			(property "Value" "SK6812MINI"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -418,7 +30,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -428,7 +40,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -447,7 +59,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -456,7 +68,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -465,7 +77,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SK6812_0_0"
+			(symbol "SK6812MINI_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -475,7 +87,7 @@
 					)
 				)
 			)
-			(symbol "SK6812_0_1"
+			(symbol "SK6812MINI_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -572,7 +184,7 @@
 					)
 				)
 			)
-			(symbol "SK6812_1_1"
+			(symbol "SK6812MINI_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -583,7 +195,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -601,7 +213,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -619,7 +231,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -637,7 +249,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1629,1500 +1241,439 @@
 		)
 	)
 	(junction
-		(at 130.81 97.79)
+		(at 101.6 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "071562ff-4e86-477b-b0d3-1bcec6d89fb5")
+		(uuid "0316a43a-4cad-45c5-950b-c0947cd8a88b")
 	)
 	(junction
-		(at 113.03 40.64)
+		(at 101.6 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1b59a3a6-732a-4c9e-a019-cb2263144a0d")
+		(uuid "25d264b7-7e12-4b13-84ea-fafbd40d6973")
 	)
 	(junction
-		(at 130.81 111.76)
+		(at 175.26 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "44264d2b-b1cb-43ba-9517-d4cbaf359c8c")
+		(uuid "3a1cca10-4036-4923-91d8-c31286eab925")
 	)
 	(junction
-		(at 105.41 96.52)
+		(at 101.6 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b1dff63-86ff-449d-a6c2-43e9de87502b")
+		(uuid "69880384-8659-4ca5-85a6-d12083e3126a")
 	)
 	(junction
-		(at 130.81 118.11)
+		(at 175.26 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8fd093b6-2043-44f7-a1f3-ae56406cbfa6")
+		(uuid "74ea1b47-2313-495c-af8e-7000d3e101e6")
 	)
 	(junction
-		(at 147.32 118.11)
+		(at 101.6 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aabf5f63-36b3-4dbf-8098-b3761c51717d")
+		(uuid "c8089c95-d872-48fa-b985-b325581c3aff")
 	)
 	(junction
-		(at 147.32 99.06)
+		(at 101.6 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d22a356f-c600-4402-a69a-54ed0afef67d")
+		(uuid "db4b0f41-e097-4ac5-a4d6-9fbfa5b4aaa8")
 	)
-	(junction
-		(at 91.44 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbcdb6f2-603e-4196-996f-7aff566976d7")
-	)
-	(junction
-		(at 105.41 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f54b5429-bdde-4cb9-968d-14ba0808a739")
-	)
-	(wire
-		(pts
-			(xy 101.6 96.52) (xy 105.41 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00087023-c241-496a-96a2-d06e155c02f6")
-	)
-	(wire
-		(pts
-			(xy 172.72 49.53) (xy 170.18 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cf29bdb-cc9e-40ae-8a65-a40989367cce")
-	)
-	(wire
-		(pts
-			(xy 80.01 43.18) (xy 80.01 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e3d84e6-53fe-4b4d-8a24-6a0a19679004")
-	)
-	(wire
-		(pts
-			(xy 105.41 83.82) (xy 105.41 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1641b7e6-1583-4abf-a892-6a1ff7d65e03")
-	)
-	(wire
-		(pts
-			(xy 210.82 30.48) (xy 210.82 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "172144d4-d58c-44a2-8e7f-51cc45a076a9")
-	)
-	(wire
-		(pts
-			(xy 187.96 49.53) (xy 182.88 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "185f3d0a-5721-4b76-9c96-4d4799ea20bf")
-	)
-	(wire
-		(pts
-			(xy 167.64 40.64) (xy 182.88 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18ca26bb-daa3-48ca-8206-4efdd6aa4b67")
-	)
-	(wire
-		(pts
-			(xy 87.63 58.42) (xy 93.98 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19230b07-6c86-4939-8e63-7fb093cba8d6")
-	)
-	(wire
-		(pts
-			(xy 210.82 46.99) (xy 203.2 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a43b760-1147-412f-8b77-fe381ea2a4ea")
-	)
-	(wire
-		(pts
-			(xy 80.01 43.18) (xy 88.9 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b18ee72-1ffd-41d4-b4db-236d93217b13")
-	)
-	(wire
-		(pts
-			(xy 130.81 97.79) (xy 130.81 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2031c63a-0297-4f25-af82-8c502a541058")
-	)
-	(wire
-		(pts
-			(xy 114.3 72.39) (xy 116.84 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "224d1208-f50f-494f-9f16-3ca14570b0b8")
-	)
-	(wire
-		(pts
-			(xy 167.64 52.07) (xy 182.88 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cec074d-457a-4d3f-b353-5413c26d941c")
-	)
-	(wire
-		(pts
-			(xy 167.64 55.88) (xy 167.64 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "306ef5bb-d3ca-47c7-a40c-e64e6f0ae88a")
-	)
-	(wire
-		(pts
-			(xy 91.44 40.64) (xy 113.03 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a312c3b-88a8-4c2c-b792-76d8c0ce54e2")
-	)
-	(wire
-		(pts
-			(xy 92.71 74.93) (xy 92.71 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c418529-ccb0-4945-ae55-b48e0c9d1c80")
-	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 116.84 52.07)
+			(xy 153.67 63.5) (xy 167.64 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f060d38-b348-4fb2-a4a4-fe14f90678b8")
+		(uuid "07e613fc-f180-4d20-95c4-26816fcbe8d6")
 	)
 	(wire
 		(pts
-			(xy 132.08 40.64) (xy 113.03 40.64)
+			(xy 146.05 55.88) (xy 175.26 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f0f52a6-3795-4b84-ad3f-1ff0e9feb4be")
+		(uuid "081d34c9-71a0-496c-8328-027881c001ed")
 	)
 	(wire
 		(pts
-			(xy 87.63 58.42) (xy 87.63 48.26)
+			(xy 101.6 105.41) (xy 101.6 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47e8a1d5-2427-45d0-8cc5-2c6b4a6813fd")
+		(uuid "1f958b83-aea7-4f82-a9e0-d9ec6e12d7d7")
 	)
 	(wire
 		(pts
-			(xy 120.65 85.09) (xy 114.3 85.09)
+			(xy 149.86 116.84) (xy 149.86 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53455b53-0678-4a48-b1b0-7ca763355cb3")
+		(uuid "22ebf7ea-fcd9-407d-a5cb-86cc1bd028dd")
 	)
 	(wire
 		(pts
-			(xy 172.72 49.53) (xy 172.72 50.8)
+			(xy 101.6 93.98) (xy 101.6 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "572c7780-cb09-470e-8058-97f103f40af6")
+		(uuid "23f5ffe4-384b-423c-b4b0-3bbaf6ce5ac4")
 	)
 	(wire
 		(pts
-			(xy 147.32 86.36) (xy 147.32 99.06)
+			(xy 146.05 71.12) (xy 175.26 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63585426-190d-4ca1-a26d-9cea3c2fccc2")
+		(uuid "2e5f9900-3a86-42c4-baad-7536a67ca605")
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 95.25 83.82)
+			(xy 135.89 71.12) (xy 135.89 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "663cabca-74b3-4e6e-af27-85b84f4ede15")
+		(uuid "3739a79e-6dd7-4908-b675-1809af3d7416")
 	)
 	(wire
 		(pts
-			(xy 93.98 58.42) (xy 93.98 73.66)
+			(xy 190.5 118.11) (xy 134.62 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67befdfe-ef81-4eb8-a291-b2bf5595b0cc")
+		(uuid "3780ff48-5fa9-4049-84a8-557adefbc0a5")
 	)
 	(wire
 		(pts
-			(xy 85.09 54.61) (xy 85.09 44.45)
+			(xy 125.73 127) (xy 125.73 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68608bbb-ce3f-4aa1-ac97-9192c665aa33")
+		(uuid "3834ea09-4110-4395-a04d-ed04f98bb005")
 	)
 	(wire
 		(pts
-			(xy 186.69 52.07) (xy 187.96 52.07)
+			(xy 101.6 71.12) (xy 101.6 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e2b2ae1-74cc-48a2-8ccf-a417ddb5d95f")
+		(uuid "38353937-4250-4ad2-84b9-ceb0b9da857a")
 	)
 	(wire
 		(pts
-			(xy 105.41 113.03) (xy 105.41 118.11)
+			(xy 185.42 101.6) (xy 200.66 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73dcf83a-728f-4792-b3a5-84e71ca7e7de")
+		(uuid "388dd273-93ee-4f31-8fe0-25c88d464fd0")
 	)
 	(wire
 		(pts
-			(xy 92.71 54.61) (xy 85.09 54.61)
+			(xy 101.6 58.42) (xy 101.6 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74a7c633-4b93-4f34-bc12-60a92caa567b")
+		(uuid "3a256990-dc9e-4c03-9c86-376849bcb66e")
 	)
 	(wire
 		(pts
-			(xy 147.32 99.06) (xy 147.32 118.11)
+			(xy 190.5 109.22) (xy 190.5 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "794a66b9-0f2d-4760-80f2-ea65dd4fbd87")
+		(uuid "4aeaef7c-4ef3-4702-8e5a-4a5e93c81cf5")
 	)
 	(wire
 		(pts
-			(xy 187.96 46.99) (xy 187.96 44.45)
+			(xy 111.76 58.42) (xy 137.16 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79c58731-b304-4f49-b749-9d133ae834bd")
+		(uuid "509859f9-0ceb-4b88-873f-b9b109a40b3f")
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 91.44 96.52)
+			(xy 138.43 101.6) (xy 149.86 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ec11e0c-cc00-4a02-942e-f2238ee54822")
+		(uuid "57f12526-e739-4751-940e-e5da3fac1af7")
 	)
 	(wire
 		(pts
-			(xy 88.9 43.18) (xy 88.9 113.03)
+			(xy 128.27 105.41) (xy 111.76 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80470d30-d996-4654-989e-885cf6e832a5")
+		(uuid "5a4675b0-31fd-40c6-a429-9ecd7263b697")
 	)
 	(wire
 		(pts
-			(xy 105.41 96.52) (xy 105.41 113.03)
+			(xy 200.66 101.6) (xy 200.66 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8427bee5-72ac-46a9-a8c8-c7ef4b9ac054")
+		(uuid "6392832d-a714-4f98-ba5e-85bea8091112")
 	)
 	(wire
 		(pts
-			(xy 167.64 69.85) (xy 133.35 69.85)
+			(xy 185.42 97.79) (xy 204.47 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "865fa38e-78ff-4cdc-a542-e1229828a9de")
+		(uuid "669bac5d-5b63-4856-9162-686742f91040")
 	)
 	(wire
 		(pts
-			(xy 130.81 118.11) (xy 147.32 118.11)
+			(xy 138.43 63.5) (xy 138.43 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87cae71e-f458-444b-b174-6f0359565085")
+		(uuid "6f8daf76-bdcf-4063-a5b0-dab242756ce8")
 	)
 	(wire
 		(pts
-			(xy 187.96 44.45) (xy 167.64 44.45)
+			(xy 128.27 124.46) (xy 128.27 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88f3a996-905c-4aec-acb6-d79a8055da9e")
+		(uuid "7b3a0a35-c1a7-48fb-8315-256fccea604b")
 	)
 	(wire
 		(pts
-			(xy 113.03 73.66) (xy 113.03 97.79)
+			(xy 137.16 58.42) (xy 137.16 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b8b6623-ee66-45eb-9be4-8fa506ae0f89")
+		(uuid "8d7ecda7-90b8-426f-8ffe-4a3f33e73f1a")
 	)
 	(wire
 		(pts
-			(xy 105.41 118.11) (xy 130.81 118.11)
+			(xy 204.47 97.79) (xy 204.47 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dafd7c3-8d88-42f9-97f0-cde629a66752")
+		(uuid "8eef12b5-59fc-4abf-8bf0-a0dbf55b24a5")
 	)
 	(wire
 		(pts
-			(xy 113.03 97.79) (xy 120.65 97.79)
+			(xy 132.08 121.92) (xy 132.08 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ff1f4f1-9ed1-4ad4-899e-785833ab5931")
+		(uuid "93139d99-7cf0-4839-bb32-00c109658186")
 	)
 	(wire
 		(pts
-			(xy 87.63 48.26) (xy 132.08 48.26)
+			(xy 101.6 116.84) (xy 101.6 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96468190-d9d6-4505-8490-cd48a26b17ba")
+		(uuid "9f8852d5-53c2-4212-916f-ae8827e30d0a")
 	)
 	(wire
 		(pts
-			(xy 85.09 44.45) (xy 132.08 44.45)
+			(xy 185.42 109.22) (xy 190.5 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a202daf0-2631-4327-9846-53694f5b9c64")
+		(uuid "a18d8589-529e-449a-befe-b429119839e9")
 	)
 	(wire
 		(pts
-			(xy 80.01 33.02) (xy 132.08 33.02)
+			(xy 135.89 116.84) (xy 149.86 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a258471b-79b7-4c5e-8cd1-160eede1b18f")
+		(uuid "a520b446-822c-478b-9886-00c1f6934b3f")
 	)
 	(wire
 		(pts
-			(xy 111.76 74.93) (xy 92.71 74.93)
+			(xy 134.62 82.55) (xy 111.76 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7bb8cab-cc79-4681-8d0e-ff20d79d969e")
+		(uuid "b1152ec3-fe96-4791-a937-1cd9be66f7c0")
 	)
 	(wire
 		(pts
-			(xy 91.44 40.64) (xy 91.44 83.82)
+			(xy 111.76 71.12) (xy 135.89 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac1e0e60-7d4e-4d2d-9496-ab4e6d2ccc4f")
+		(uuid "b45c1db4-516a-4de9-b00f-5f943fa6ec55")
 	)
 	(wire
 		(pts
-			(xy 130.81 111.76) (xy 130.81 118.11)
+			(xy 125.73 116.84) (xy 111.76 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac766651-d85c-443f-b266-b293237cf089")
+		(uuid "bf82dc60-92f8-4a52-8e71-f63fec1d8e6b")
 	)
 	(wire
 		(pts
-			(xy 114.3 85.09) (xy 114.3 72.39)
+			(xy 101.6 82.55) (xy 101.6 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b03c4d9c-ebab-4c78-959a-bdd4edb12ec6")
+		(uuid "c670eba4-e97c-4989-b5ca-91cf840d2e04")
 	)
 	(wire
 		(pts
-			(xy 182.88 30.48) (xy 210.82 30.48)
+			(xy 134.62 118.11) (xy 134.62 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1046964-0429-4a66-aec3-8b8fb80c2f1d")
+		(uuid "c84f069d-85cd-4c69-bd2e-64c6e908730b")
 	)
 	(wire
 		(pts
-			(xy 182.88 40.64) (xy 182.88 30.48)
+			(xy 185.42 105.41) (xy 195.58 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7ab8c0f-488f-4316-9602-ecd7c8850961")
+		(uuid "e2159286-ca65-4bea-b7d4-d62bc9617acb")
 	)
 	(wire
 		(pts
-			(xy 130.81 85.09) (xy 130.81 97.79)
+			(xy 137.16 105.41) (xy 149.86 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9ea71bf-a1bb-4573-8923-7912eafbe997")
+		(uuid "e2ad87fa-8777-4daa-b124-da793762cba2")
 	)
 	(wire
 		(pts
-			(xy 186.69 50.8) (xy 186.69 52.07)
+			(xy 132.08 93.98) (xy 111.76 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7ec902f-f965-4b29-a820-98559e7d36fa")
+		(uuid "ecd7b6ab-ec8f-490b-8eb3-ca6907f08089")
 	)
 	(wire
 		(pts
-			(xy 120.65 111.76) (xy 111.76 111.76)
+			(xy 195.58 105.41) (xy 195.58 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc50686c-6e84-4766-b7ea-bcebb6ffcad5")
+		(uuid "ee6a582f-87bc-4834-811a-da398068177b")
 	)
 	(wire
 		(pts
-			(xy 113.03 36.83) (xy 113.03 40.64)
+			(xy 204.47 127) (xy 125.73 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccf20c35-7cb4-464c-bfea-745fdd6aa97a")
+		(uuid "f067c692-e6f4-4c0d-86e3-7aa0e1f75daa")
 	)
 	(wire
 		(pts
-			(xy 167.64 48.26) (xy 170.18 48.26)
+			(xy 200.66 124.46) (xy 128.27 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d13c387a-ce89-4483-8b42-40e2fa7ad351")
+		(uuid "f5991e20-cfef-4964-a49c-278932fac9b9")
 	)
 	(wire
 		(pts
-			(xy 147.32 118.11) (xy 149.86 118.11)
+			(xy 195.58 121.92) (xy 132.08 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
-		)
-		(uuid "d2d764db-2124-4250-92f7-ccafe1e3f1d3")
-	)
-	(wire
-		(pts
-			(xy 133.35 86.36) (xy 137.16 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9aee8ae-c8ed-4771-a419-4547340d32d8")
-	)
-	(wire
-		(pts
-			(xy 116.84 52.07) (xy 132.08 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db896335-0bdf-4aba-916c-b8d6c8001d6a")
-	)
-	(wire
-		(pts
-			(xy 203.2 52.07) (xy 209.55 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce55eb7-2023-4f64-97cb-ff335efe8abe")
-	)
-	(wire
-		(pts
-			(xy 133.35 69.85) (xy 133.35 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dde3c2aa-7c3c-4e98-8e76-a9587edff8e6")
-	)
-	(wire
-		(pts
-			(xy 111.76 111.76) (xy 111.76 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e179e76a-b576-44bb-8820-4df4d978302b")
-	)
-	(wire
-		(pts
-			(xy 170.18 48.26) (xy 170.18 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1f59415-b7c9-4a3a-bb82-3fe8c128698a")
-	)
-	(wire
-		(pts
-			(xy 182.88 49.53) (xy 182.88 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4cdbf53-619e-4695-900c-839dc2e12d0e")
-	)
-	(wire
-		(pts
-			(xy 172.72 50.8) (xy 186.69 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7e49a8e-ae29-4504-aa67-c903dc7c79c0")
-	)
-	(wire
-		(pts
-			(xy 132.08 55.88) (xy 132.08 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea19e0f5-e4cf-4f85-8cff-63a2cfce1f7c")
-	)
-	(wire
-		(pts
-			(xy 88.9 113.03) (xy 95.25 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eba379eb-c810-444c-9e42-ef2d35c2dd47")
-	)
-	(wire
-		(pts
-			(xy 132.08 99.06) (xy 137.16 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f18e433b-bb12-4da0-a11c-2d1f4144f696")
-	)
-	(wire
-		(pts
-			(xy 93.98 73.66) (xy 113.03 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1af60f7-2ba3-4a2e-bb60-55b857913c2e")
-	)
-	(wire
-		(pts
-			(xy 132.08 36.83) (xy 113.03 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3966dcd-7b53-4823-9fef-a595781fc809")
-	)
-	(wire
-		(pts
-			(xy 182.88 52.07) (xy 182.88 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f63e9a56-001a-4940-8cca-e4be642bf0ea")
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 100.33 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0136337c-27e5-4ad0-b459-8352b95b2ece")
-		(property "Reference" "SW1"
-			(at 100.33 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 100.33 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 100.33 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 100.33 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4822a67a-b2da-41cc-9c97-da11cbb4f7d8")
-		)
-		(pin "1"
-			(uuid "a6229b98-63f4-4342-a14a-f1f229b6257f")
-		)
-		(instances
-			(project "razerpad"
-				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 125.73 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04d42c77-4604-4a6b-b2cc-6804da5ee731")
-		(property "Reference" "SW9"
-			(at 125.73 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 125.73 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 125.73 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 125.73 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5abcb2b-fead-484b-ba02-c3c6e1fe6c64")
-		)
-		(pin "2"
-			(uuid "b6a20c4d-291d-41aa-bf2f-f11f97228884")
-		)
-		(instances
-			(project "razerpad"
-				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
 		)
+		(uuid "fdebe29d-0d9e-49b2-93b6-de36d38ff116")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 118.11 0)
+		(at 101.6 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0d03beaf-8cde-4d9a-9b3f-c395a474ed84")
-		(property "Reference" "#PWR03"
-			(at 149.86 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c84911d-d167-41d6-b747-affc1d9efcaf")
-		)
-		(instances
-			(project "razerpad"
-				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 125.73 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12a704a3-63e7-4ba3-81db-e556817fe07a")
-		(property "Reference" "SW7"
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 125.73 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 125.73 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 125.73 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b278b3d-6703-4d4d-9e4a-585b347ea8a4")
-		)
-		(pin "2"
-			(uuid "fab5b9d1-3849-4398-b0fe-1daa20d25eff")
-		)
-		(instances
-			(project "razerpad"
-				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 142.24 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31962b76-44a9-493f-8108-9f91d6eaca21")
-		(property "Reference" "SW8"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 142.24 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ebf2278-16ca-49ce-9fa3-f38f1030f0fd")
-		)
-		(pin "2"
-			(uuid "1a7c4da9-38f8-4958-8ed4-2cd510b7e794")
-		)
-		(instances
-			(project "razerpad"
-				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 190.5 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b1e6b21-dda2-4246-8ebc-f1c1635b5d83")
-		(property "Reference" "#PWR04"
-			(at 190.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 190.5 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 190.5 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcbfd734-afaa-49d7-b3fe-0bb365ea9a64")
-		)
-		(instances
-			(project "razerpad"
-				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 96.52 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bcb1cf3-fd02-4dfb-b594-1f1e82c7c382")
-		(property "Reference" "SW2"
-			(at 96.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 96.52 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 96.52 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba46375a-efff-4afa-97a0-3fbd889b6244")
-		)
-		(pin "2"
-			(uuid "8ea7300e-a114-412e-bb52-9c03d44549fb")
-		)
-		(instances
-			(project "razerpad"
-				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 167.64 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6be85ae0-beea-49e4-89d3-9ee305742619")
-		(property "Reference" "#PWR02"
-			(at 163.83 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 171.45 33.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 167.64 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da64b6af-cc1b-43dc-9de0-1ba16ebbb871")
-		)
-		(instances
-			(project "razerpad"
-				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 182.88 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78a793e6-742a-4e53-8222-43ac2eb2a872")
-		(property "Reference" "#PWR06"
-			(at 176.53 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 48.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e41f12b6-006b-4287-9c3f-5fbfc84a122b")
-		)
-		(instances
-			(project "razerpad"
-				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 195.58 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e503d1a-30f7-4f67-b728-6e360babf2bd")
-		(property "Reference" "SW4"
-			(at 195.58 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at 195.58 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
-			(at 191.77 45.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "0a486bad-63e3-42c8-83ef-1df45833abec")
-		)
-		(pin "A"
-			(uuid "cef5f27e-0c1c-4c15-84e4-1cc06d15e0e3")
-		)
-		(pin "S2"
-			(uuid "760efb19-475c-4d46-b6b8-70e896137ced")
-		)
-		(pin "B"
-			(uuid "57f8004e-ce19-418a-bb8e-2f2aca804cf1")
-		)
-		(pin "S1"
-			(uuid "61f928f1-9a7a-4188-a377-484eeedd3ab4")
-		)
-		(instances
-			(project "razerpad"
-				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 209.55 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f42b0cd-15a9-4f93-93db-e3767406016f")
-		(property "Reference" "#PWR07"
-			(at 215.9 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 213.36 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1c64650-1183-4934-a29e-7500e76244c6")
-		)
-		(instances
-			(project "razerpad"
-				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "856f792e-a34b-4e83-b19b-f296f6f699c8")
+		(uuid "28bff968-a6ee-4977-8a2b-a5bb9ffcd739")
 		(property "Reference" "#PWR01"
-			(at 173.99 36.83 0)
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,16 +1682,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 36.8299 90)
+			(at 101.6 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 36.83 0)
+			(at 101.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +1699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 36.83 0)
+			(at 101.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +1708,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 36.83 0)
+			(at 101.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +1717,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1aed1dec-debe-4da5-997c-91c78e7330b4")
+			(uuid "647ba19b-574d-40fb-968c-fa4d5050563d")
 		)
 		(instances
 			(project "razerpad"
@@ -3180,16 +1730,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 142.24 86.36 0)
+		(at 106.68 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "888826e2-270f-41d1-884d-787b257bb43e")
-		(property "Reference" "SW6"
-			(at 142.24 78.74 0)
+		(uuid "3e5f55fc-d720-4edd-8404-d3148293da51")
+		(property "Reference" "SW4"
+			(at 106.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +1747,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 142.24 81.28 0)
+			(at 106.68 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +1755,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 142.24 81.28 0)
+			(at 106.68 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +1764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 81.28 0)
+			(at 106.68 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +1773,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 142.24 86.36 0)
+			(at 106.68 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,195 +1782,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "61b0b707-111a-4471-94a8-28bf5da48ce5")
+			(uuid "dd6c4412-5830-4f75-968a-3557e4fcac6a")
 		)
 		(pin "1"
-			(uuid "a75b57bf-0dc8-4675-9317-e4a00bf15c1d")
+			(uuid "0ef082e9-6a24-4ee7-9c08-8b3ac2388704")
 		)
 		(instances
 			(project "razerpad"
 				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OPL:XIAO-RP2040-DIP")
-		(at 135.89 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9110c544-1101-4818-848f-fb1a4b67cc56")
-		(property "Reference" "U1"
-			(at 149.86 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XIAO-RP2040-DIP"
-			(at 149.86 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-RP2040-DIP"
-			(at 150.368 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2547d24-f52e-43ba-9347-292f0d32a75b")
-		)
-		(pin "4"
-			(uuid "e8619b80-002d-47cf-a4a6-7f34452b4cb0")
-		)
-		(pin "11"
-			(uuid "23eec728-6071-4376-8fa3-89d5f020b383")
-		)
-		(pin "9"
-			(uuid "9f96bf7e-c61a-433d-87f1-f27fdbaa83ad")
-		)
-		(pin "3"
-			(uuid "04cb7835-487c-4dd0-b278-8cd8fe8464a7")
-		)
-		(pin "7"
-			(uuid "685a7857-8756-40e5-8a6f-b158fdc17420")
-		)
-		(pin "12"
-			(uuid "7f6fba3c-6ec8-4163-8083-2611fcc2dfb9")
-		)
-		(pin "14"
-			(uuid "65f111ea-389b-448f-87f5-6ab8370c0b31")
-		)
-		(pin "10"
-			(uuid "d717efbf-43eb-46ea-8bd2-8e1a949ecda2")
-		)
-		(pin "8"
-			(uuid "9e3ae8ad-bae1-4b6d-94cb-e63f8eeed1c0")
-		)
-		(pin "2"
-			(uuid "6993338e-219a-4d31-81ed-ddfef4745fad")
-		)
-		(pin "6"
-			(uuid "6bb4278e-7196-4180-ba4d-e953ce712473")
-		)
-		(pin "5"
-			(uuid "72cb7c1d-cbb8-4ef1-a8d5-70e442e9e930")
-		)
-		(pin "13"
-			(uuid "0108a69c-9133-4721-8d64-d2a2b878902f")
-		)
-		(instances
-			(project "razerpad"
-				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812")
-		(at 190.5 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aaf40031-72a4-47b0-9cf6-bc4a39470692")
-		(property "Reference" "D1"
-			(at 200.66 63.4298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 200.66 65.9698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 191.77 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 193.04 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 190.5 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0778d38f-ba2f-486a-95ab-ba237a349098")
-		)
-		(pin "2"
-			(uuid "03e9dcce-50eb-4709-a6d0-92708b412dd6")
-		)
-		(pin "3"
-			(uuid "54b5c9b7-4359-4d85-b081-bc81c1921687")
-		)
-		(pin "4"
-			(uuid "3baf26ae-4892-43bf-ae86-a50a4184b179")
-		)
-		(instances
-			(project "razerpad"
-				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "D1")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -3428,16 +1798,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 125.73 85.09 0)
+		(at 106.68 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b994d362-e7bd-4d00-85b3-cfdfe2b4d3e4")
-		(property "Reference" "SW5"
-			(at 125.73 77.47 0)
+		(uuid "5b19e20e-04de-4fca-8256-bbfb36ff9bfc")
+		(property "Reference" "SW3"
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +1815,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 125.73 80.01 0)
+			(at 106.68 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +1823,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 125.73 80.01 0)
+			(at 106.68 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +1832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 80.01 0)
+			(at 106.68 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +1841,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 125.73 85.09 0)
+			(at 106.68 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,32 +1850,32 @@
 			)
 		)
 		(pin "2"
-			(uuid "d6e72a41-5f36-4e50-ae9e-e5129ffbe8d6")
+			(uuid "682de53a-263b-4b48-ae5c-57fff4237506")
 		)
 		(pin "1"
-			(uuid "a1c2c00c-3766-466d-865c-3a92944f412c")
+			(uuid "5bc2aac8-9a1b-4316-833e-0a85d1b8f235")
 		)
 		(instances
 			(project "razerpad"
 				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "SW5")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 190.5 77.47 0)
+		(lib_id "power:+5V")
+		(at 175.26 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d8cde511-e1d5-4a76-985d-5383c88e2c42")
-		(property "Reference" "#PWR05"
-			(at 190.5 83.82 0)
+		(uuid "5cc42afa-6e43-45e8-9eac-a063bd8022e4")
+		(property "Reference" "#PWR02"
+			(at 175.26 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,8 +1883,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 190.5 82.55 0)
+		(property "Value" "+5V"
+			(at 175.26 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +1892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 77.47 0)
+			(at 175.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,7 +1901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 77.47 0)
+			(at 175.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,8 +1909,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 77.47 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 175.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +1919,142 @@
 			)
 		)
 		(pin "1"
-			(uuid "012116f4-28a6-4d7b-a8ae-9ef65a0b087a")
+			(uuid "7d3509d2-58d5-43d4-b389-7b8c0210eda5")
+		)
+		(instances
+			(project "razerpad"
+				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 106.68 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60950c9e-c73f-48d2-b261-3ef2d1af60f5")
+		(property "Reference" "SW1"
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 106.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 106.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8912db39-a7d4-4259-bb0c-d9fc8e9a38f1")
+		)
+		(pin "1"
+			(uuid "1c8c6f10-71fb-45e2-aab8-fde08cdf4469")
+		)
+		(instances
+			(project "razerpad"
+				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 185.42 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6af54534-84e2-424c-bba1-92095e5cb8fc")
+		(property "Reference" "#PWR05"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 189.23 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7598fdc-9ecf-4a15-8af3-b80dcbc5f329")
 		)
 		(instances
 			(project "razerpad"
@@ -3562,16 +2067,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 100.33 113.03 0)
+		(at 106.68 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dad40bb5-f607-469d-8cfe-9f9d24a941c4")
-		(property "Reference" "SW3"
-			(at 100.33 105.41 0)
+		(uuid "8384770a-d635-4aff-9021-9b7382726043")
+		(property "Reference" "SW5"
+			(at 106.68 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3579,7 +2084,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 100.33 107.95 0)
+			(at 106.68 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +2092,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 100.33 107.95 0)
+			(at 106.68 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +2101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 107.95 0)
+			(at 106.68 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +2110,217 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 100.33 113.03 0)
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d80f8b4e-4b31-4c77-84bd-3121fe1cf171")
+		)
+		(pin "2"
+			(uuid "0d841480-21c4-4d42-a717-31b272d349db")
+		)
+		(instances
+			(project "razerpad"
+				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83cb5fbb-2221-4117-a407-74b31d251581")
+		(property "Reference" "#PWR03"
+			(at 175.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ffff248-1431-4d2d-b998-6ebe1ec36a99")
+		)
+		(instances
+			(project "razerpad"
+				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 146.05 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91a3abc9-b7e4-45e7-a510-4753789d1a1e")
+		(property "Reference" "D1"
+			(at 158.75 57.0798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 158.75 59.6198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 148.59 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a69dfe9f-f513-4320-9b7b-bffc4931e7b5")
+		)
+		(pin "1"
+			(uuid "26283cf7-e5f9-424e-a2fb-444bc4acecd8")
+		)
+		(pin "4"
+			(uuid "0341a15d-ad02-4b58-b5cc-6eebf014b0cc")
+		)
+		(pin "2"
+			(uuid "5851e6e9-5e43-4145-8f8b-bb902ded815a")
+		)
+		(instances
+			(project "razerpad"
+				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 106.68 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3bfa403-06de-414f-8743-183a89844e50")
+		(property "Reference" "SW2"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 106.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,15 +2329,330 @@
 			)
 		)
 		(pin "2"
-			(uuid "f405761a-c0fc-4f11-8712-e29251cc5fef")
+			(uuid "bb657260-854a-4548-aff0-6f3932f5828b")
 		)
 		(pin "1"
-			(uuid "181aa95c-49c6-46ca-ad94-ec8f69f49a93")
+			(uuid "afc4f4a1-de87-4b25-bf03-d2f963d8c742")
 		)
 		(instances
 			(project "razerpad"
 				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
-					(reference "SW3")
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OPL:XIAO-RP2040-DIP")
+		(at 153.67 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdc49f82-cc9b-4965-b825-0bdfcc2a8466")
+		(property "Reference" "U1"
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XIAO-RP2040-DIP"
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-RP2040-DIP"
+			(at 168.148 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "d88db60d-2b08-442c-9b81-8ace2e385a6e")
+		)
+		(pin "8"
+			(uuid "a58c101d-f96e-46bc-96fe-ae36338824f3")
+		)
+		(pin "6"
+			(uuid "a1afd43f-1f0e-47ed-93fb-4c9223943199")
+		)
+		(pin "7"
+			(uuid "3b4387ed-21ae-4ba9-89f9-4c4d896b75a8")
+		)
+		(pin "1"
+			(uuid "a101ec49-390b-473d-8e0d-8b39c2c576d0")
+		)
+		(pin "2"
+			(uuid "758e1920-e648-4a4c-a1e9-19f3599226b9")
+		)
+		(pin "3"
+			(uuid "304ff5e5-09ed-40f8-ac34-4ff20ff652e8")
+		)
+		(pin "4"
+			(uuid "dae3d820-3693-4ad7-a4d4-42d67e08aa13")
+		)
+		(pin "5"
+			(uuid "e73bdd5d-048e-4949-970d-570fb520e0a4")
+		)
+		(pin "14"
+			(uuid "a4b71083-7bdd-455a-ba39-3704a72e550f")
+		)
+		(pin "13"
+			(uuid "fb1cc0ec-89e8-40aa-b364-41bfe71694d6")
+		)
+		(pin "12"
+			(uuid "d9e02e59-878b-48ed-8345-0cf0f407632a")
+		)
+		(pin "11"
+			(uuid "45d6c08e-9539-4202-9bb1-bd35bbd2d789")
+		)
+		(pin "10"
+			(uuid "d1ce3c0b-7689-441a-b28c-21d15ff86124")
+		)
+		(instances
+			(project "razerpad"
+				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8bf54ba-7d98-4dcc-b140-444b3e18c5a1")
+		(property "Reference" "#PWR04"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe0032c6-cebc-4b49-897c-4fc2f73b4d5a")
+		)
+		(instances
+			(project "razerpad"
+				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 106.68 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcd7d9fa-6a19-44f3-8fc0-73676285deb0")
+		(property "Reference" "SW6"
+			(at 106.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 106.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 106.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2a9fa77-2aa1-4a1a-a97a-2f2e4752cabb")
+		)
+		(pin "1"
+			(uuid "09969edd-9511-4a7f-9009-7d925496c371")
+		)
+		(instances
+			(project "razerpad"
+				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 175.26 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1c4d946-b910-4490-be76-45a9aeb2dbab")
+		(property "Reference" "D2"
+			(at 187.96 57.0798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 187.96 59.6198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 176.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 177.8 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecedda88-4bf4-43fb-9d70-66bca27411ab")
+		)
+		(pin "4"
+			(uuid "61a82a1f-bb36-47b4-bd48-e328b63d0d52")
+		)
+		(pin "2"
+			(uuid "b23fb5ee-a661-4276-83d6-98a3d295c602")
+		)
+		(pin "3"
+			(uuid "36852a70-3c1b-4fe9-ab20-49e7ed383599")
+		)
+		(instances
+			(project "razerpad"
+				(path "/7d66b08b-ba51-4912-98d0-7440f66d0fea"
+					(reference "D2")
 					(unit 1)
 				)
 			)
