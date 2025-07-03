@@ -3097,6 +3097,42 @@
 		)
 	)
 	(gr_text "RAZERPAD"
+		(at 121.47 86.24 0)
+		(layer "F.SilkS")
+		(uuid "8a3f5d62-542c-408d-a189-d43a415b3e20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RAZERPAD"
+		(at 121.54 83.96 0)
+		(layer "F.SilkS")
+		(uuid "8c304299-d42f-4c28-8903-2cbae009333b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RAZERPAD"
+		(at 121.4 88.51 0)
+		(layer "F.SilkS")
+		(uuid "b97b1336-cfde-4f84-8a91-3458c4a10ea1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RAZERPAD"
 		(at 121.48 81.79 0)
 		(layer "F.SilkS")
 		(uuid "df0fc837-50fd-440d-94d5-0b21809157f5")
