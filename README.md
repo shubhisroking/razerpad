@@ -28,6 +28,11 @@ Bottom Case
 
 ![image](https://github.com/user-attachments/assets/7e4a730d-cd3a-48aa-b471-d79e252b8075)
 
+Final assembly
+
+
+![image](https://github.com/user-attachments/assets/ddf58471-0874-4093-9fcc-425877283cce)
+
 BOM:
 
 6x Cherry MX Switches
